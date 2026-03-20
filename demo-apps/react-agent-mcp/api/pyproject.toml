@@ -1,0 +1,18 @@
+[project]
+name = "react_agent_mcp_api"
+version = "0.1.0"
+description = "API for react-agent-mcp"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiosqlite>=0.22.1",
+    "fastapi>=0.135.1",
+    "fastmcp>=3.1.1",
+    "langchain>=1.2.12",
+    "langchain-mcp-adapters>=0.2.1",
+    "langchain-openai>=1.1.11",
+    "langgraph>=1.1.2",
+    "langgraph-checkpoint-sqlite>=3.0.3",
+    "python-dotenv>=1.2.2",
+    "uvicorn[standard]>=0.41.0",
+]
