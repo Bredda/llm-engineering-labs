@@ -1,6 +1,6 @@
 # Backend
-*/.venv/
-*/.env
+api/.venv/
+api/.env
 api/checkpoints.db
 api/checkpoints*
 __pycache__/
