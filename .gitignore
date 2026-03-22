@@ -13,3 +13,4 @@ ui/dist/
 # Docker
 *.tar
  
+ _demo-apps/
